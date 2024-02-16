@@ -17,7 +17,7 @@ public class PracialBrayanMejiaApplication {
 
         @Override
         public void run(String... args) throws Exception {           
-            Runtime.getRuntime().exec("cmd /c start http://localhost:8087/principal");
+            Runtime.getRuntime().exec("cmd /c start http://localhost:8080/principal");
         }
     }
 }
